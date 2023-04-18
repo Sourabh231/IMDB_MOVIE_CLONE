@@ -1,0 +1,171 @@
+.movie{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie_intro{
+    width: 80%;
+}
+.movie-backdrops{
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+    /* object-position: 0 35%; */
+}
+
+.movie_details{
+    align-items: center;
+    width: 75%;
+    display: flex;
+    position: relative;
+    bottom: 225px;
+}
+
+.movie_detailleft{
+    margin-right: 30px;
+}
+
+.movie_poster{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.86)0px 22px 40px 6px;
+}
+
+.movie_deltailright{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+}
+
+.movie_detailRightTop > div{
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+}
+
+.movie_name{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.movie_voteCount{
+    margin-left: 1rem;
+}
+
+.movie_genres {
+    margin: 1.25rem 0;
+}
+
+.movie_genre {
+    padding: .5rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+
+.movie_detailRightBottom {
+    margin: 2rem 0;
+    flex: 0.8;
+}
+
+.synopsisText{
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.synopsisText > div:last-of-type {
+    margin-left: auto;
+   
+}
+
+.synopsisoftext{
+    font-size: 1rem;
+}
+
+.movie_links {
+    width: 85%;
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.movie_heading {
+    font-size: 1.8rem;
+}
+
+.movie__Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem 8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+    font-weight: 300px;
+    margin-left: 200px;
+}
+
+.movie__homeButton {
+    background-color:rgb(255, 0, 0);
+    
+}
+
+.movie_headings {
+    font-size: 1.8rem;
+    position: relative;
+    top: 270px;
+    text-align: center;
+}
+
+
+.movie__imdbButton {
+    background-color:#f3ce13;
+    margin-left: 20px;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}
+
+/* .movie_production{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.movie_productionCompany{
+    position: relative;
+    top: 100px;
+    width: 100px;
+    margin: 4rem;
+}
+
+.comapany_name{
+    font-size: 1rem;
+}
+
+
+ */
